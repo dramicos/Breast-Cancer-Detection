@@ -13,7 +13,7 @@ According to World Health Organization(WHO), In 2020, there were 2.3 million wom
 
 # Overview
 Our website showcases the female breast cancer recurrence and non recurrence events  age from 10 to 99 years old which was donated by University Medical Centre, Institute of Oncology, Ljubljana, Yugoslavia in 1988.
- Using Breast Cancer Data from UCI Machine Learning Repository, we will visualize the comparative model analysis:  If tumor location, what age group, tumor size potentially influence breast cancer recurrence.   
+ Using Breast Cancer Data from UCI Machine Learning Repository, we will visualize the comparative model analysis:  If tumor location, what age group, tumor size potentially influence breast cancer recurrence.  Health prfessionals more 
  
 
 
