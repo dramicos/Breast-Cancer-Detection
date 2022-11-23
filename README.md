@@ -24,7 +24,7 @@ Our website showcases the female breast cancer detection age from 10 to 99 years
 * Mauvonte Roberts: Web Building(CSS)
 * Ryan Grimsley: Web Building(HTML/Bootstrap)
 
-## Major Tasks: Research
+## Major Tasks: Research Track
 
 ### Data Cleaning/Processing Tasks
 
@@ -56,13 +56,12 @@ Our website showcases the female breast cancer detection age from 10 to 99 years
 
 * Test multiple machine learning techinques
     
-    * Neural Network
-
-    * Random Forest Classifier
+    * Random Forest
 
     * K-Nearest Neighbors
 
-    * K-Means
+    * Neural Network
+
 
 * Take the best performing model and run it through a confusion matrix
 
@@ -81,10 +80,6 @@ Our website showcases the female breast cancer detection age from 10 to 99 years
 * Utilizes Plotly:
 
    * Plotly utilization for chart visualization. Specific charts TBD; at least bar chart and line charts across various categories.   
-
-### Unique Library Task:
-
-* https://www.apexcharts.com/ - Charting library
 
 ### User Driven Interaction:
 
