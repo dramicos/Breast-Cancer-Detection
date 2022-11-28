@@ -7,6 +7,7 @@
 body{
     background-image: url(/images/bc.jpeg);
     background-position: -15rem;
+    background-size: auto;
     margin: 0px;
    
     
@@ -19,7 +20,7 @@ body{
     margin: 0px;
     padding: 10px 10px;
     background-color: rgba(0, 0, 0, 0);
-    
+
    
     
 }
@@ -31,9 +32,21 @@ body{
     border-radius: 40px;
 }
 
-a:hover{
+#navbar a:hover{
+    box-sizing: border-box;
+    border: 5px solid orchid;
+    border-radius: 50px ;
     background-color: darksalmon;
     text-shadow: 1px 2px 2px wheat;
+    @keyframes anime {
+        from {background-color:pink;}
+        to {background-color:violet;}
+    }
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    
 
     
     
@@ -45,5 +58,8 @@ a:hover{
     border-radius: 30px;
     color: darksalmon;
     padding: 2px;
-    
+}
+
+#navbrand{
+    tr
 }
