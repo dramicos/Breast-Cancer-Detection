@@ -37,20 +37,21 @@ body{
     border: 5px solid orchid;
     border-radius: 50px ;
     background-color: darksalmon;
-    text-shadow: 1px 2px 2px wheat;
-    @keyframes anime {
-        from {background-color:pink;}
-        to {background-color:violet;}
-    }
+    text-shadow: 4px 2px 2px wheat;
+
     transition-property: all;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
-    
 
-    
-    
+    color: rebeccapurple;
+    text-shadow: 2px 5px 10px rgb(80, 33, 49);
 }
+/* @keyframes body {
+    from {background-color:pink;}
+    to {background-color:violet;}
+    
+} */
 
 #navbrand{
     box-sizing: border-box;
@@ -58,8 +59,15 @@ body{
     border-radius: 30px;
     color: darksalmon;
     padding: 2px;
+
 }
 
-#navbrand{
-    tr
+#navbrand:hover{
+    transform: rotate3d(1, 0, 0, 360deg);
+    background-color: rgb(11, 1, 3);
+    transition: all 1s ease 0s ;
+    color: rebeccapurple;
+    text-shadow: 2px 3px 2px rgb(80, 33, 49);
 }
+
+
