@@ -70,4 +70,22 @@ body{
     text-shadow: 2px 3px 2px rgb(80, 33, 49);
 }
 
+#arnold-photo{
+    max-width: 150px;
+    max-height: 200px;
+}
 
+#hyeeun-photo{
+    max-width: 150px;
+    max-height: 200px;
+}
+
+#mauvonte-photo{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#ryan-photo{
+    max-width: 150px;
+    max-height: 200px;
+}
