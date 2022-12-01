@@ -77,23 +77,66 @@ body{
 #arnold-photo{
     max-width: 150px;
     max-height: 200px;
+    box-sizing: border-box;
+    border: 5px ridge darkcyan;
+    border-radius: 75px;
+    padding: 2px;
+    cursor: pointer;
+
 }
+#arnold-photo:hover{
+    cursor: pointer;
+    transition: all 1s ease-in-out 0s ;
+    transform: rotate3d(-1, 0, -1, 360deg);
+}
+
 
 #hyeeun-photo{
     max-width: 150px;
     max-height: 200px;
+    box-sizing: border-box;
+    border: 5px groove orange;
+    border-radius: 75px;
+    cursor: pointer;
+    
+}
+#hyeeun-photo:hover{
+    cursor: pointer;
+    transition: all 1s ease-in-out 0s ;
+    transform: rotate3d(1,1, -1, 360deg);
 }
 
 #mauvonte-photo{
     max-width: 200px;
     max-height: 200px;
+    box-sizing: border-box;
+    border: 5px inset red;
+    border-radius: 75px;
+    cursor: pointer;
 }
+
+#mauvonte-photo:hover{
+    cursor: pointer;
+    transition: all 1s ease-in-out 0s ;
+    transform: rotate3d(0,0,-1, 360deg);
+}
+
 
 #ryan-photo{
     max-width: 150px;
     max-height: 200px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 5px outset rgb(66, 53, 53);
+    border-radius: 75px;
 }
 
+
+#ryan-photo:hover{
+    cursor: pointer;
+    transition: all 1s ease-in-out 0s ;
+    transform: rotateX(360deg);
+}
 #group-info{
     display: block;
     margin: 0;
