@@ -1,10 +1,10 @@
-// import anime from 'animejs/lib/anime.es.js';
+import anime from 'animejs/lib/anime.es.js';
 
-// const anime = require('animejs');
+const anime = require('animejs');
 
 
 anime({
-    targets: document.querySelector('group-info'),
+    targets: '.p-3',
     translateX: 250,
     scale: 2,
     rotate: '90deg',
