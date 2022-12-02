@@ -7,7 +7,9 @@ According to World Health Organization(WHO), In 2020, there were 2.3 million wom
 
 # Overview
 Our website showcases the female breast cancer detection age from 10 to 99 years old which was donated by University of Wisconsin
+Our website showcases the female breast cancer detection age from 10 to 99 years old which was donated by University of Wisconsin
  Using Breast Cancer Data from UCI Machine Learning Repository, we will visualize the comparative model analysis:  If tumor location, what age group, tumor size potentially influence breast cancer recurrence.  Health prfessionals more 
+
 
 ## Contributers (Group 8)
 * Hyeeun Hughes
@@ -17,6 +19,7 @@ Our website showcases the female breast cancer detection age from 10 to 99 years
 
 ## Contents
 * Breast Cancer Data (122 kB): https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(diagnostic)
+* Breast Cancer Data (122 kB): https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(diagnostic)
 
 ## Work Breakdown
 * Hyeeun Hughes: Project Manager, Data Cleaning & Processing, Tableau(TBD)
@@ -24,6 +27,7 @@ Our website showcases the female breast cancer detection age from 10 to 99 years
 * Mauvonte Roberts: Web Building(CSS)
 * Ryan Grimsley: Web Building(HTML/Bootstrap)
 
+## Major Tasks: Research Track
 ## Major Tasks: Research Track
 
 ### Data Cleaning/Processing Tasks
@@ -49,6 +53,7 @@ Our website showcases the female breast cancer detection age from 10 to 99 years
 * Split the processed data into training and testing dataset.
 
 * Create and fit the StandardScaler.
+* Create and fit the StandardScaler.
 
 * Scale the data.
 
@@ -66,8 +71,11 @@ Our website showcases the female breast cancer detection age from 10 to 99 years
 * Take the best performing model and run it through a confusion matrix
 
 * Tweak the model to minimize the amount of false negatives
+* Tweak the model to minimize the amount of false negatives
 
 ### Website Tasks:
+
+ * Utilize a openflowing website, that allows user to navigate easily and freely
 
  * Utilize a openflowing website, that allows user to navigate easily and freely
 
@@ -76,17 +84,23 @@ Our website showcases the female breast cancer detection age from 10 to 99 years
     * Page for each model as well as a short analysis.
 
     * Summarization Page to go over the end results.
+    * Page for each model as well as a short analysis.
+
+    * Summarization Page to go over the end results.
 
 * Utilizes Plotly:
+
 
    * Plotly utilization for chart visualization. Specific charts TBD; at least bar chart and line charts across various categories.   
 
 ### User Driven Interaction:
 
 * Menu selections to view by Introduction, Data Processing, Models, and Analysis 
+* Menu selections to view by Introduction, Data Processing, Models, and Analysis 
 
 * Dropdown menu to select Models
 
+* Clicking on each model will display a detailed analysis
 * Clicking on each model will display a detailed analysis
 
 ### Presentation Tasks

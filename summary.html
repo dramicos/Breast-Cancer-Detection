@@ -12,6 +12,9 @@
     
     <!-- Our CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- D3 library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
     
 </head>
 
@@ -34,7 +37,7 @@
                 </li>
                 <!-- Tests Routes -->
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Techinques</a>
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Techniques</a>
                   <ul class="dropdown-menu">
                     <li>
                       <a class="dropdown-item"  href="rfc_model.html">Random Forest Classifiers</a>
@@ -45,15 +48,14 @@
                     <li>
                       <a class="dropdown-item"  href="nn_model.html">Neural Network</a>
                     </li>
+                    <li>
+                      <a class="dropdown-item"  href="logregres_model.html">Logistic Regression</a>
+                    </li>
                   </ul>
                 </li>
                 <!-- Summary Route -->
                 <li class="nav-item">
                   <a class="nav-link active" href="summary.html">Summary</a>
-                </li>
-                <!-- Cancer Site -->
-                <li class="nav-item">
-                  <a class="nav-link active" target="_blank" href="https://www.cancer.org/cancer/breast-cancer.html">More Info</a>
                 </li>
               </ul>
             </div>
@@ -64,8 +66,9 @@
     <div class="container text-center">
         <div class="row">
             <div class="col">
-                <p class="lead" id="header">
+                <p class="lead" id="header"><strong>
                     This Summary Page goes over the comparison between model performances, which model was suggested for further testing, and the conclusion of the further testing.
+                  </strong>
                 </p>
             </div>
         </div>

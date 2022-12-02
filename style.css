@@ -1,3 +1,152 @@
 #header {
     margin: 30px;
+    
 }
+/* Container */
+
+    
+body{
+    background-image: url(/images/bc.jpeg);
+    background-position: -15rem;
+    background-size: auto;
+    /* background-repeat: no-repeat; */
+    margin: 0;
+   
+    
+}
+
+/* Navbar */
+#navbar-base{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 10px 10px;
+    
+}
+
+.navbar{
+    box-sizing: border-box;
+    border: 4px solid darksalmon;
+    border-radius: 40px;
+    cursor: pointer;
+    background-color: blanchedalmond;
+}
+
+
+
+
+
+#navbar-base a:hover{
+    box-sizing: border-box;
+    border: 1px solid orchid;
+    border-radius: 50px ;
+    background-color: darksalmon;
+    text-shadow: 2px 5px 5px rgba(33, 24, 9, 0.901);
+
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+
+    color: rebeccapurple;
+    ;
+}
+/* @keyframes body {
+    from {background-color:pink;}
+    to {background-color:violet;}
+    
+} */
+
+#navbrand{
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 30px;
+    color: darksalmon;
+    padding: 2px;
+
+}
+
+#navbrand:hover{
+    transform: rotate3d(1, 0, 0, 360deg);
+    background-color: rgba(170, 10, 159, 0);
+    transition: all 1s ease 0s ;
+    color: rebeccapurple;
+    text-shadow: 2px 3px 2px rgb(80, 33, 49);
+}
+
+#arnold-photo{
+    max-width: 150px;
+    max-height: 200px;
+    box-sizing: border-box;
+    border: 5px ridge darkcyan;
+    border-radius: 75px;
+    padding: 2px;
+    cursor: pointer;
+
+}
+#arnold-photo:hover{
+    cursor: pointer;
+    transition: all 1s ease-in-out 0s ;
+    transform: rotate3d(-1, 0, -1, 360deg);
+}
+
+
+#hyeeun-photo{
+    max-width: 150px;
+    max-height: 200px;
+    box-sizing: border-box;
+    border: 5px groove orange;
+    border-radius: 75px;
+    cursor: pointer;
+    
+}
+#hyeeun-photo:hover{
+    cursor: pointer;
+    transition: all 1s ease-in-out 0s ;
+    transform: rotate3d(1,1, -1, 360deg);
+}
+
+#mauvonte-photo{
+    max-width: 200px;
+    max-height: 200px;
+    box-sizing: border-box;
+    border: 5px inset red;
+    border-radius: 75px;
+    cursor: pointer;
+}
+
+#mauvonte-photo:hover{
+    cursor: pointer;
+    transition: all 1s ease-in-out 0s ;
+    transform: rotate3d(0,0,-1, 360deg);
+}
+
+
+#ryan-photo{
+    max-width: 150px;
+    max-height: 200px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 5px outset rgb(66, 53, 53);
+    border-radius: 75px;
+}
+
+
+#ryan-photo:hover{
+    cursor: pointer;
+    transition: all 1s ease-in-out 0s ;
+    transform: rotateX(360deg);
+}
+#group-info{
+    display: block;
+    margin: 0;
+    padding: 20px 0;
+    
+
+    /* transition: all 2s ease-in-out 0s; */
+    /* transform: rotate3d(1, 0, 1, 90deg); */
+}
+/* #group-info:hover{
+transform: rotate3d(1, 0, 1, 360deg); 
+cursor: pointer; 
+} */
