@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <title>Breast Cancer Detection</title>
-    <link rel="stylesheet" href="static/css/reset.css">
+    <link rel="stylesheet" href="reset.css">
     
     <!-- BootStrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -18,10 +18,10 @@
     
 </head>
 
-<body>
+<body style="background-image: url(images/bc.jpeg);">
     <!-- Navbar -->
     <div class="container" id="navbar-base">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
             <!-- GitHub Route -->
             <a class="navbar-brand" href="https://github.com/dramicos/Breast-Cancer-Detection" target="_blank" id="navbrand">
@@ -72,6 +72,15 @@
           <br>
           The Random Forest Classifier is a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.
           </p>
+        </div>
+      </div>
+      <div class="row g-2">
+        <div class="col">
+          <div class="p-3 border bg-light">
+            <p>The Random Forest Classifier Model came out with the following results</p>
+            <p>Training Data Score : 100%  -  Testing Data Score : 96.5%</p>
+            <p>True Positive : 80 , False Positive : 4 , False Negative : 1 , True Negative : 58</p>
+          </div>
         </div>
       </div>
     </div>
