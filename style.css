@@ -6,11 +6,14 @@
 
     
 body{
-    /* background-image: url(/images/bc.jpeg); */
+    background-image: url(/images/bc.jpeg);
     background-position: -15rem;
     background-size: auto;
     /* background-repeat: no-repeat; */
     margin: 0;
+    height: 100vh;
+    width: 100vw;
+    
    
     
 }
@@ -205,21 +208,35 @@ body{
     line-height: 1em;
   }
 
+  /* team member boxes */
+  .col-3{
+    background-color: pink;
+    margin: 3px 0;
+    padding: 10px 3px;
+  }
   .col-3:hover{
     background-color: rgb(215, 91, 176);
     transition: all 1s ease-in-out 0s;
     
+  }
 
+  .row .g-2{
+    background-color: plum;
+    margin-bottom: 1px;
+  }
+
+  .p-3{
+    background-color: black;
   }
 
   /* team descriptions */
-  p{
+  .desc{
     box-sizing: border-box;
     border: 6px groove rosybrown;
     border-radius: 40px;
   }
   
-  p:hover{
+  .desc:hover{
     color: pink;
     text-shadow: 3px 1px 5px plum;
     background-color: black;
@@ -227,3 +244,58 @@ body{
     transform: rotate3d(-1,-1,0, 360);
     cursor: pointer;
   }
+
+  .proj-desc{
+    background-color: silver;
+    text-shadow: 2px 3px 4px plum;
+   
+  }
+
+  .lead:hover{
+    color: pink;
+    text-shadow: 3px 1px 5px plum;
+    background-color: black;
+    transition: all 1s ease-out 0s;
+    transform: rotate3d(-1,-1,0, 360);
+    cursor: pointer;
+  }
+
+/* bottom links */
+.col-6{
+    background-color: plum;
+}
+
+h5{
+cursor: pointer;
+box-sizing: border-box;
+border: 2px solid black;
+border-radius: 40px;
+background-color: palevioletred;
+
+}
+
+.bot-links{
+    box-sizing: border-box;
+    border: 1px groove black;
+    border-radius: 50px;
+    margin: 2px 0;
+    padding: 20px 5px;
+    color: pink;
+    text-decoration: none;
+}
+
+.bot-links:hover{
+    cursor: pointer;
+    text-shadow: 0px 5px 0px rgb(16, 15, 16);
+    transition: all 1s ease-in 0s;
+    /* transform: rotate3d(-1, 0, 1, 360deg); */
+    margin: 0;
+    padding: 20px;
+    background-color: pink;
+    color: palevioletred;
+    text-decoration: none;
+}
+
+
+
+
